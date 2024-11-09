@@ -1,70 +1,87 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Quiz App 🎯
 
-## Available Scripts
 
-In the project directory, you can run:
+Welcome to the Quiz App repository! This interactive quiz application lets users test their knowledge through engaging multiple-choice questions.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Repository Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+quiz-app/
+├── src/
+│   ├── components/
+│   │   ├── Question.js
+│   │   ├── QuizCard.js
+│   │   ├── Results.js
+│   │   └── Timer.js
+│   ├── styles/
+│   │   └── main.css
+│   ├── utils/
+│   │   └── helpers.js
+│   └── App.js
+├── public/
+│   ├── index.html
+│   └── assets/
+├── tests/
+└── README.md
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Multiple choice questions with instant feedback
+- Timer for each question
+- Score tracking and final results
+- Responsive design for mobile and desktop
+- Progress indicator
+- Local storage for saving high scores
 
-### `npm run build`
+## 🚀 Quick Start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone: `git clone https://github.com/Surya-KF/Quiz_APP.git`
+2. Install: `cd Quiz_APP && npm install`
+3. Run: `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔄 Application Flow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start Quiz → Load Questions → Display Question → Start Timer → User Selects Answer → 
+Check Answer (Correct/Incorrect) → Update Score → Check for More Questions → 
+Show Results → Save Score → Option to Restart
 
-### `npm run eject`
+## 🛠️ Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React.js
+- CSS3
+- Local Storage API
+- Jest for testing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📝 Usage Guide
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Click "Begin Quiz" to start
+2. Read each question
+3. Select answer before timer expires
+4. View final results
+5. Save high score
+6. Retry option available
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contributing
 
-## Learn More
+1. Fork repository
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Open Pull Request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT License
 
-### Code Splitting
+## 🔗 Quick Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Repository: https://github.com/Surya-KF/Quiz_APP
+- Issues: https://github.com/Surya-KF/Quiz_APP/issues
 
-### Analyzing the Bundle Size
+## 📞 Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For support or questions, open an issue in the repository.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Made with ❤️ by Surya-KF
